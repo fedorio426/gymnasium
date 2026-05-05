@@ -1,0 +1,433 @@
+# depslib dependency file v1.0
+1754077202 source:d:\workspace\gymnasium\project.rc
+
+1776785251 source:d:\workspace\gymnasium\gymnasium.cpp
+	<nana/gui.hpp>
+	<nana/gui/place.hpp>
+	<nana/gui/widgets/button.hpp>
+	<nana/gui/widgets/group.hpp>
+	<nana/gui/widgets/form.hpp>
+	<nana/gui/widgets/combox.hpp>
+	<nana/gui/widgets/label.hpp>
+	<nana/gui/widgets/textbox.hpp>
+	<nana/gui/widgets/listbox.hpp>
+	<nana/gui/widgets/menubar.hpp>
+	<nana/gui/widgets/toolbar.hpp>
+	<nana/gui/widgets/tabbar.hpp>
+	<nana/gui/filebox.hpp>
+	<nana/gui/widgets/picture.hpp>
+	<iostream>
+	<sstream>
+	<string>
+	<vector>
+	<functional>
+	<Windows.h>
+	"Database.h"
+	"search.hpp"
+	"utils.h"
+
+1715805806 c:\development\nana\include\nana\gui.hpp
+	"gui/compact.hpp"
+	"gui/screen.hpp"
+	"gui/widgets/form.hpp"
+	"gui/drawing.hpp"
+	"gui/msgbox.hpp"
+	"gui/place.hpp"
+
+1715805806 c:\development\nana\include\nana\gui\compact.hpp
+	"programming_interface.hpp"
+
+1715805806 c:\development\nana\include\nana\gui\programming_interface.hpp
+	<nana/config.hpp>
+	"effects.hpp"
+	"detail/general_events.hpp"
+	"detail/color_schemes.hpp"
+	"detail/widget_content_measurer_interface.hpp"
+	<nana/paint/image.hpp>
+	<memory>
+
+1761222128 c:\development\nana\include\nana\config.hpp
+	"c++defines.hpp"
+
+1715805806 c:\development\nana\include\nana\c++defines.hpp
+	<iosfwd>
+	<iosfwd>
+
+1715805806 c:\development\nana\include\nana\gui\effects.hpp
+	<cstddef>
+	<nana/paint/graphics.hpp>
+
+1715805806 c:\development\nana\include\nana\paint\graphics.hpp
+	<memory>
+	"../basic_types.hpp"
+	"../gui/basis.hpp"
+	<nana/filesystem/filesystem.hpp>
+	"detail/ptdefs.hpp"
+	<string_view>
+
+1715805806 c:\development\nana\include\nana\basic_types.hpp
+	<nana/deploy.hpp>
+	<cctype>
+	<nana/push_ignore_diagnostic>
+	<nana/pop_ignore_diagnostic>
+
+1715805806 c:\development\nana\include\nana\deploy.hpp
+	<nana/push_ignore_diagnostic>
+	<nana/config.hpp>
+	<nana/stdc++.hpp>
+	<nana/charset.hpp>
+	<stdexcept>
+	<string_view>
+	<nana/pop_ignore_diagnostic>
+
+1715805806 c:\development\nana\include\nana\push_ignore_diagnostic
+
+1715805806 c:\development\nana\include\nana\stdc++.hpp
+	"c++defines.hpp"
+	<cstddef>
+	<memory>
+	<type_traits>
+	<utility>
+	<ctime>
+	<string>
+
+1715805806 c:\development\nana\include\nana\charset.hpp
+	<string>
+
+1715805806 c:\development\nana\include\nana\pop_ignore_diagnostic
+
+1715805806 c:\development\nana\include\nana\gui\basis.hpp
+	<nana/push_ignore_diagnostic>
+	"../basic_types.hpp"
+	"../traits.hpp"
+	<nana/pop_ignore_diagnostic>
+
+1715805806 c:\development\nana\include\nana\traits.hpp
+	<type_traits>
+
+1735599002 c:\development\nana\include\nana\filesystem\filesystem.hpp
+	<nana/push_ignore_diagnostic>
+	<nana/config.hpp>
+	<chrono>
+	<boost/filesystem.hpp>
+	<filesystem>
+	<filesystem>
+	<string>
+	<system_error>
+	<iterator>
+	<memory>
+	<chrono>
+	<cstddef>
+	<cstdint>
+	<algorithm>
+	<nana/deploy.hpp>
+	<nana/pop_ignore_diagnostic>
+
+1715805806 c:\development\nana\include\nana\paint\detail\ptdefs.hpp
+
+1715805806 c:\development\nana\include\nana\gui\detail\general_events.hpp
+	<nana/push_ignore_diagnostic>
+	<nana/gui/basis.hpp>
+	"event_code.hpp"
+	"internal_scope_guard.hpp"
+	"../../filesystem/filesystem.hpp"
+	<type_traits>
+	<functional>
+	<vector>
+	<nana/pop_ignore_diagnostic>
+
+1715805806 c:\development\nana\include\nana\gui\detail\event_code.hpp
+
+1715805806 c:\development\nana\include\nana\gui\detail\internal_scope_guard.hpp
+
+1715805806 c:\development\nana\include\nana\gui\detail\color_schemes.hpp
+	"widget_geometrics.hpp"
+
+1715805806 c:\development\nana\include\nana\gui\detail\widget_geometrics.hpp
+	<nana/gui/basis.hpp>
+	<memory>
+
+1715805806 c:\development\nana\include\nana\gui\detail\widget_content_measurer_interface.hpp
+	<nana/basic_types.hpp>
+	<nana/optional.hpp>
+	<nana/paint/graphics.hpp>
+
+1715805806 c:\development\nana\include\nana\optional.hpp
+	<nana/c++defines.hpp>
+	<optional>
+	<stdexcept>
+
+1715805806 c:\development\nana\include\nana\paint\image.hpp
+	"graphics.hpp"
+
+1715805806 c:\development\nana\include\nana\gui\screen.hpp
+	"basis.hpp"
+	<functional>
+	<memory>
+
+1715805806 c:\development\nana\include\nana\gui\widgets\form.hpp
+	"widget.hpp"
+	<nana/gui/place.hpp>
+
+1715805806 c:\development\nana\include\nana\gui\widgets\widget.hpp
+	<nana/push_ignore_diagnostic>
+	"../programming_interface.hpp"
+	<nana/internationalization.hpp>
+	<nana/gui/detail/drawer.hpp>
+	<nana/pop_ignore_diagnostic>
+
+1715805806 c:\development\nana\include\nana\internationalization.hpp
+	<vector>
+	<sstream>
+	<functional>
+	<memory>
+	<nana/deploy.hpp>
+
+1715805806 c:\development\nana\include\nana\gui\detail\drawer.hpp
+	<nana/push_ignore_diagnostic>
+	"general_events.hpp"
+	<nana/paint/graphics.hpp>
+	<functional>
+	<vector>
+	<nana/pop_ignore_diagnostic>
+
+1715805806 c:\development\nana\include\nana\gui\place.hpp
+	<nana/push_ignore_diagnostic>
+	<nana/gui/basis.hpp>
+	<memory>
+	<functional>
+	<nana/pop_ignore_diagnostic>
+
+1715805806 c:\development\nana\include\nana\gui\drawing.hpp
+	<nana/push_ignore_diagnostic>
+	"widgets/widget.hpp"
+	"../traits.hpp"
+	<nana/pop_ignore_diagnostic>
+
+1715805806 c:\development\nana\include\nana\gui\msgbox.hpp
+	<nana/push_ignore_diagnostic>
+	<sstream>
+	<nana/pop_ignore_diagnostic>
+
+1715805806 c:\development\nana\include\nana\gui\widgets\button.hpp
+	"widget.hpp"
+	<nana/gui/element.hpp>
+	<nana/push_ignore_diagnostic>
+	<nana/pop_ignore_diagnostic>
+
+1715805806 c:\development\nana\include\nana\gui\element.hpp
+	<nana/push_ignore_diagnostic>
+	<nana/paint/graphics.hpp>
+	<nana/pat/cloneable.hpp>
+	<vector>
+	<nana/pop_ignore_diagnostic>
+
+1715805806 c:\development\nana\include\nana\pat\cloneable.hpp
+	<nana/push_ignore_diagnostic>
+	<nana/c++defines.hpp>
+	<cstddef>
+	<type_traits>
+	<memory>
+	<nana/pop_ignore_diagnostic>
+
+1715805806 c:\development\nana\include\nana\gui\widgets\group.hpp
+	<nana/gui/place.hpp>
+	<nana/gui/widgets/panel.hpp>
+	<nana/gui/widgets/checkbox.hpp>
+
+1715805806 c:\development\nana\include\nana\gui\widgets\panel.hpp
+	"widget.hpp"
+	<type_traits>
+
+1715805806 c:\development\nana\include\nana\gui\widgets\checkbox.hpp
+	<nana/push_ignore_diagnostic>
+	"widget.hpp"
+	<vector>
+	<memory>
+	<nana/pop_ignore_diagnostic>
+
+1715805806 c:\development\nana\include\nana\gui\widgets\combox.hpp
+	<nana/push_ignore_diagnostic>
+	"widget.hpp"
+	"float_listbox.hpp"
+	"skeletons/text_editor_part.hpp"
+	<nana/key_type.hpp>
+	<nana/concepts.hpp>
+	<functional>
+	<nana/pop_ignore_diagnostic>
+
+1715805806 c:\development\nana\include\nana\gui\widgets\float_listbox.hpp
+	<nana/push_ignore_diagnostic>
+	"widget.hpp"
+	<vector>
+	<memory>
+	<nana/pop_ignore_diagnostic>
+
+1715805806 c:\development\nana\include\nana\gui\widgets\skeletons\text_editor_part.hpp
+	"../../detail/widget_geometrics.hpp"
+	<vector>
+
+1715805806 c:\development\nana\include\nana\key_type.hpp
+
+1715805806 c:\development\nana\include\nana\concepts.hpp
+	<nana/any.hpp>
+
+1715805806 c:\development\nana\include\nana\any.hpp
+	<typeinfo>
+	<type_traits>
+	<utility>
+	"c++defines.hpp"
+
+1715805806 c:\development\nana\include\nana\gui\widgets\label.hpp
+	"widget.hpp"
+	<nana/push_ignore_diagnostic>
+	<nana/pop_ignore_diagnostic>
+
+1715805806 c:\development\nana\include\nana\gui\widgets\textbox.hpp
+	<nana/push_ignore_diagnostic>
+	<nana/gui/widgets/widget.hpp>
+	"skeletons/textbase_export_interface.hpp"
+	"skeletons/text_editor_part.hpp"
+	<nana/optional.hpp>
+	<nana/pop_ignore_diagnostic>
+
+1715805806 c:\development\nana\include\nana\gui\widgets\skeletons\textbase_export_interface.hpp
+
+1715805806 c:\development\nana\include\nana\gui\widgets\listbox.hpp
+	<nana/push_ignore_diagnostic>
+	"widget.hpp"
+	"detail/inline_widget.hpp"
+	"detail/widget_iterator.hpp"
+	<nana/pat/abstract_factory.hpp>
+	<nana/concepts.hpp>
+	<nana/key_type.hpp>
+	<functional>
+	<initializer_list>
+	<mutex>
+	<typeinfo>
+	<nana/pop_ignore_diagnostic>
+
+1715805806 c:\development\nana\include\nana\gui\widgets\detail\inline_widget.hpp
+	"../../basis.hpp"
+
+1715805806 c:\development\nana\include\nana\gui\widgets\detail\widget_iterator.hpp
+	<cstddef>
+
+1715805806 c:\development\nana\include\nana\pat\abstract_factory.hpp
+	"cloneable.hpp"
+	<memory>
+	<tuple>
+	<type_traits>
+
+1715805806 c:\development\nana\include\nana\gui\widgets\menubar.hpp
+	"widget.hpp"
+	"menu.hpp"
+	<nana/push_ignore_diagnostic>
+	<nana/pop_ignore_diagnostic>
+
+1715805806 c:\development\nana\include\nana\gui\widgets\menu.hpp
+	"widget.hpp"
+	<nana/pat/cloneable.hpp>
+	<nana/push_ignore_diagnostic>
+	<nana/pop_ignore_diagnostic>
+
+1715805806 c:\development\nana\include\nana\gui\widgets\toolbar.hpp
+	<nana/push_ignore_diagnostic>
+	"widget.hpp"
+	<nana/pop_ignore_diagnostic>
+
+1715805806 c:\development\nana\include\nana\gui\filebox.hpp
+	<nana/gui/basis.hpp>
+	<nana/filesystem/filesystem.hpp>
+	<vector>
+	<utility>
+
+1776177123 d:\workspace\gymnasium\database.h
+	<ctime>
+	<fstream>
+	<iostream>
+	<sstream>
+	<string>
+	<vector>
+	<windows.h>
+	"logger.h"
+
+1753136566 d:\workspace\gymnasium\logger.h
+	<ctime>
+	<iomanip>
+	<iostream>
+	<fstream>
+	<sstream>
+	<chrono>
+
+1757173554 d:\workspace\gymnasium\search.hpp
+	<cstdint>
+
+1776184558 source:d:\workspace\gymnasium\database.cpp
+	"sqlite3pp.h"
+	"sqlite3ppext.h"
+	"Database.h"
+	"utils.h"
+
+1760459282 source:d:\workspace\gymnasium\sformat.cpp
+	"sformat.h"
+
+1760459383 d:\workspace\gymnasium\sformat.h
+	<string>
+	<vector>
+	<cstdarg>
+
+1761139610 source:d:\workspace\gymnasium\utils.cpp
+	"utils.h"
+
+1761139610 d:\workspace\gymnasium\utils.h
+	<string>
+	<vector>
+	<cstdarg>
+	<nana/gui.hpp>
+
+1742143012 d:\workspace\gymnasium\sqlite3pp\sqlite3pp.h
+	<functional>
+	<iterator>
+	<stdexcept>
+	<string>
+	<tuple>
+	<sqlite3ext.h>
+	<sqlite3.h>
+	"sqlite3pp.ipp"
+
+1522682450 c:\development\sqlite\sqlite3ext.h
+	"sqlite3.h"
+
+1522682450 c:\development\sqlite\sqlite3.h
+	<stdarg.h>
+
+1699713316 d:\workspace\gymnasium\sqlite3pp\sqlite3pp.ipp
+	<cstring>
+	<memory>
+
+1699713316 d:\workspace\gymnasium\sqlite3pp\sqlite3ppext.h
+	<cstddef>
+	<map>
+	<memory>
+	<tuple>
+	<type_traits>
+	<utility>
+	"sqlite3pp.h"
+	"sqlite3ppext.ipp"
+
+1699713316 d:\workspace\gymnasium\sqlite3pp\sqlite3ppext.ipp
+	<cstring>
+
+1715805806 c:\development\nana\include\nana\gui\widgets\tabbar.hpp
+	<nana/push_ignore_diagnostic>
+	"widget.hpp"
+	<nana/pat/cloneable.hpp>
+	<nana/any.hpp>
+	<nana/pop_ignore_diagnostic>
+
+1715805806 c:\development\nana\include\nana\gui\widgets\picture.hpp
+	<nana/push_ignore_diagnostic>
+	"widget.hpp"
+	<nana/pop_ignore_diagnostic>
+
